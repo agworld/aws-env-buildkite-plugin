@@ -1,0 +1,11 @@
+name: Eval Command
+description: Evaluates a command
+author: https://github.com/agworld
+requirements: []
+configuration:
+  properties:
+    command:
+      type:
+      - string
+      - array
+  additionalProperties: false
