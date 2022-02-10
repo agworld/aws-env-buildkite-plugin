@@ -5,7 +5,5 @@ requirements: []
 configuration:
   properties:
     command:
-      type:
-      - string
-      - array
+      type: string
   additionalProperties: false
