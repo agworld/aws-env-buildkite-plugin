@@ -1,11 +1,8 @@
-name: Eval Command
-description: Evaluates a command
+name: AWS Env for Agworld
+description: Evaluates an AWS Env and sets up the AWS_... variables accordingly
 author: https://github.com/agworld
-requirements: []
+requirements:
+- jq
 configuration:
-  properties:
-    command:
-      type:
-      - string
-      - array
+  properties: {}
   additionalProperties: false
